@@ -17,3 +17,13 @@ view [
     return
     p: panel
 ]
+
+; view [
+;    button "Switch" [
+;       move head pan/pane tail pan/pane
+;    ] return 
+;    pan: panel [
+;       at 0x0 panel snow 100x200 [text "First panel"] 
+;       at 0x0 panel snow 100x100 [text "Second panel"]
+;    ]
+; ]
